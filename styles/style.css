@@ -1576,3 +1576,35 @@ window.addEventListener('load', () => {
         themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
     }
 });
+/* /css/index.css */
+
+/* Reset default margins and ensure box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Logo container */
+.logo {
+    display: inline-block;
+}
+
+/* Logo image styling */
+.logo-image {
+    max-width: 30px; 
+    height: auto;
+    transition: transform 0.3s ease; /* For hover effect */
+}
+
+/* Optional hover effect */
+.logo-image:hover {
+    transform: scale(1.1); 
+}

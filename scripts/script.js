@@ -280,5 +280,11 @@ window.addEventListener('load', () => {
             <div>Pending Orders: ${dashboardData.orders.pending}</div>
         `;
     }
-    // Existing animation code...
+    
+});
+
+document.querySelector('.logo-image').addEventListener('click', function() {
+    console.log('Logo clicked!');
+    // Add custom behavior, e.g., redirect to homepage
+    // window.location.href = '/index.html';
 });
